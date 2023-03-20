@@ -25,8 +25,7 @@ function Signup(props) {
             <input type="text" placeholder='Enter Name' ref={nameRef}/><br />
             <input type="text" placeholder='create password' ref={passRef}/><br />
             <button onClick={submit}> Signup</button>
-            <Link to="Login"
-            ><button>LOgin</button></Link>
+            <Link to="Login"><button>LOgin</button></Link>
         </div>
     )
 }
